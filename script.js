@@ -364,7 +364,7 @@ window.addEventListener('load', function() {
                 context.textAlign = 'center';
                 let message1;
                 let message2;
-                if (this.game.score > this.game.winningScore) {
+                if (this.game.score >= this.game.winningScore) {
                     message1 = 'You Win!';
                     message2 = 'Welcome to The Pro League!';
                 } else {
