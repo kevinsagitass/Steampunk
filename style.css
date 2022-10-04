@@ -43,6 +43,10 @@
     display: none;
 }
 
+#gamerules {
+    padding: 50px;
+}
+
 #lucky , #projectile, #gears, #hivewhale, #drone, #smoke, #fire{
     display: none;
 }
